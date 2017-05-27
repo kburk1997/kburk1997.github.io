@@ -1,0 +1,158 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+
+.site-header{
+    background-color: #66ACE6;
+   color: #fff !important;   
+
+}
+
+.site-header .wrapper >a{
+  color: #fff !important;
+}
+
+.site-nav .trigger >a{
+  color: #fff !important;
+
+}
+.page-heading{
+      font-family: 'Raleway', sans-serif !important;
+
+}
+footer{
+  background: #66ACE6;
+   color: #fff !important;   
+
+}
+
+.footer-heading{
+    color:#fff !important;
+
+}
+.footer-col-wrapper{
+  color:#fff;
+}
+
+.username{
+  color:#def !important;
+}
+
+.contact-list>li>a{
+  color:#def !important;
+}
+
+.icon > svg path{
+  fill:#fff !important;
+}
+.post-link{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.post-title{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+
+
+/**
+ * Basic styling
+ */
+
+ h1, h2, h3, h4 {
+  font-family: Raleway, sans-serif !important;
+  color:#666 !important;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #666;
+}
+
+.about-content{
+  width:66%;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+
+.profile-wrapper{
+  height:100%;
+}
+.profile-image-container{
+  width:30%;
+  display: inline-block;
+  height: 100%;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 80%;
+  box-shadow: 5px 2px #efefef;
+      vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 33%;
+}
+
+.image-wrapper{
+  width: 25%;
+  display: inline-block;
+  height: 100%;
+
+}
+
+.image-wrapper >img{
+  max-height: 128px;
+    margin: auto;
+    display:block;
+  vertical-align:middle;
+}
+.caption-wrapper {
+  width:70%;
+  display:inline-block;
+  height: 100%;
+  margin:auto;
+}
+@media screen and (max-width: 640px){
+.image-wrapper{
+  width: 33%;
+  display: inline-block;
+  height: 100%;
+
+}
+
+.image-wrapper >img{
+  max-height: 128px;
+    margin: auto;
+    display:block;
+  vertical-align:middle;
+}
+.caption-wrapper {
+  width:63%;
+  display:inline-block;
+  height: 100%;
+  margin:auto;
+}
+}
+
+body{
+  background:#eee;
+}
+
+.page-content .wrapper{
+  background:#fff !important;
+  border-radius:5px;
+  padding:20px;
+  color:#999;
+}
+
+.tag{
+
+}
+
+.tags-expo-posts>a{
+  font-size:20px !important;
+}

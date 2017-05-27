@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+  <h1 class="page-title">Portfolio</h1>
+  <br>
+    <ul class="project-list post-list">
+      <li class="is-active orbit-slide">
+      <div class="image-wrapper"><img class="orbit-image" src="http://i.imgur.com/DvTsJGM.png" alt="RedFlag"></div>
+          <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://chrome.google.com/webstore/detail/redflag/icfcofbhpapplokfmbgllcfehkbaadap">RedFlag</a></h3><p>An open-source Chrome extension that either hides or highlights possibly harassing tweets and gives users information about reporting harassment. Won MLH and HackHarassment's Best Anti-Harassment Hack at HackRPI 2016.
+</p></figcaption></div>
+    </li>
+<li class="orbit-slide">
+      <div class="image-wrapper"><img class="orbit-image" src="https://github.com/kburk1997/RoadJams/blob/master/public/images/compact%20logo.png?raw=true" alt="RoadJams"></div>
+          <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://github.com/kburk1997/RoadJams">RoadJams</a></h3><p>An open-source Node.js app that takes users' Spotify data and uses the Spotify API to create a playlist matching the length of a road trip based on the group's preferences. Created at HackMarist 2016.
+</p></figcaption></div>
+    </li>  
+    <li class="orbit-slide">
+      <div class="image-wrapper"><img class="orbit-image" src="https://rcos.io/uploads/kburk1997/betterebinder/bi9mDY7Jsg1qW5K106FqpbII.png" alt="Better eBinder"></div>
+          <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="http://bit.ly/apples-stamford">Better eBinder</a></h3><p>A Rails application that organizes Google documents in a customizable "binder". Originally created for Stamford Public Schools to organize preschool documents.
+</p></figcaption></div>
+    </li>     
+    <li class="orbit-slide">
+      <div class="image-wrapper"><img class="orbit-image" src="http://i.imgur.com/Vwe5kiT.png" alt="FidgetWidget"></div>
+          <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://github.com/kburk1997/FidgetWidget">FidgetWidget</a></h3><p>A hardware hack designed to show that stimming is a natural and relaxing experience for autistic and allistic individuals. Created at HackMIT 2016.
+
+
+</p></figcaption></div>
+    </li>  
+        <li class="orbit-slide">
+      <div class="image-wrapper"><img class="orbit-image" src="https://startupcompete.co/business/logo-image/businessid/42859/filename/logo-bgxrkgjpnjxk.png" alt="CrowdCop"></div>
+          <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="http://www.crowdcop.io">CrowdCop</a></h3><p>A new spin on the way tips can be farmed for crime prevention and solving that uses crowd funding to make information more valuable for issues and crimes the public feels strongly about. On indefinite hiatus.
+</p></figcaption></div>
+    </li>
+    
+
+    <li class="orbit-slide">
+      <div class="image-wrapper"><img class="orbit-image" src="https://github.com/bocaaust/SoundView/blob/master/SoundView/Images.xcassets/AppIcon.appiconset/AppIcon60x60@3x.png?raw=true" alt="Space"></div>
+      <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://github.com/bocaaust/SoundView">Synesthetics</a></h3><p>An iOS app that generates sound based on RGB values for images as well as maintains volume relative to the intensity of the color. Won Most Creative Hack at BCCHacks 2016.
+        </p></figcaption></div>
+    </li>
+    
+        <li class="orbit-slide">
+      <div class="image-wrapper"><img class="orbit-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Autism_spectrum_infinity_awareness_symbol.svg/2000px-Autism_spectrum_infinity_awareness_symbol.svg.png" alt="Space"></div>
+      <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://github.com/kburk1997/My-ASD-Journey">Sensory Overload Simulator</a></h3><p>A mobile mini simulation collection that tries to simulate some of the experiences of living with ASD. Won Most Innovative Hack and placed second overall at NYX 2016. Web port is currently in progress.
+        </p></figcaption></div>
+    </li>
+    
+    <li class="orbit-slide">
+      <div class="image-wrapper"><img class="orbit-image" src="http://kburk.me/assets/rotae-42b833d314cf8740f97bfec226f9014d.png" alt="Space"></div>
+      <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://itunes.apple.com/us/app/rotae/id1090704774?mt=8">Rotae</a></h3><p>An open-source, non-linear task organizer for iOS. Web version under construction.
+        </p></figcaption></div>
+    </li>
+    
+        <li class="orbit-slide">
+      <div class="image-wrapper"><img class="orbit-image" src="http://kburk.me/assets/trustnews-a2f7833d19f8e47867722645afc2cc7d.png" alt="Space"></div>
+      <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://chrome.google.com/webstore/detail/trustnews/idpllpndgppbccmacnhfbefikkoijbej">TrustNews</a></h3><p>An open-source Chrome extension that determines if a major news source is trustworthy.
+        </p></figcaption></div>
+    </li>
+    
+        <li class="orbit-slide">
+      <div class="image-wrapper"><img class="orbit-image" src="http://kburk.me/assets/stemfest-b5c78aa4cc46a3b612d7b19f0b61a5ab.jpg" alt="Space"></div>
+      <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://github.com/kburk1997/STEMFest-App">Stamford STEMFest</a></h3><p>A mobile web app for visitors of Stamford STEMFest 2015. Included information on over 90 activities, directions, parking, registration, and a form for song requests.
+        </p></figcaption></div>
+    </li>
+    {% for project in site.projects %}
+      <li>
+
+        <h2>
+          {{ project.title | escape }}
+        </h2>
+      </li>
+    {% endfor %}
+    </ul>
+
+  
+</div>
+  </div>
