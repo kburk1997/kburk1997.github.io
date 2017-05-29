@@ -2,77 +2,551 @@
 layout: default
 ---
 
+<script>
+var main=function(){
+  $('.project').mouseover(function(){
+    //console.log("Mouse over");
+    $(this).addClass('flip');
+  });
+
+  $('.project').mouseout(function(){
+    //console.log("Mouse out");
+    $(this).removeClass('flip');
+  });
+
+  $('.flip-button').click(function(){
+    //console.log("Clicked!");
+    $(this).parent().parent().parent().parent().addClass('flip');
+  });
+};
+
+$(document).ready(main);
+</script>
+<div class="container-fluid">
   <h1 class="page-title">Portfolio</h1>
   <br>
-    <ul class="project-list post-list">
-      <li class="is-active orbit-slide">
-      <div class="image-wrapper"><img class="orbit-image" src="http://i.imgur.com/DvTsJGM.png" alt="RedFlag"></div>
-          <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://chrome.google.com/webstore/detail/redflag/icfcofbhpapplokfmbgllcfehkbaadap">RedFlag</a></h3><p>An open-source Chrome extension that either hides or highlights possibly harassing tweets and gives users information about reporting harassment. Won MLH and HackHarassment's Best Anti-Harassment Hack at HackRPI 2016.
-</p></figcaption></div>
-    </li>
-<li class="orbit-slide">
-      <div class="image-wrapper"><img class="orbit-image" src="https://github.com/kburk1997/RoadJams/blob/master/public/images/compact%20logo.png?raw=true" alt="RoadJams"></div>
-          <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://github.com/kburk1997/RoadJams">RoadJams</a></h3><p>An open-source Node.js app that takes users' Spotify data and uses the Spotify API to create a playlist matching the length of a road trip based on the group's preferences. Created at HackMarist 2016.
-</p></figcaption></div>
-    </li>  
-    <li class="orbit-slide">
-      <div class="image-wrapper"><img class="orbit-image" src="https://rcos.io/uploads/kburk1997/betterebinder/bi9mDY7Jsg1qW5K106FqpbII.png" alt="Better eBinder"></div>
-          <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="http://bit.ly/apples-stamford">Better eBinder</a></h3><p>A Rails application that organizes Google documents in a customizable "binder". Originally created for Stamford Public Schools to organize preschool documents.
-</p></figcaption></div>
-    </li>     
-    <li class="orbit-slide">
-      <div class="image-wrapper"><img class="orbit-image" src="http://i.imgur.com/Vwe5kiT.png" alt="FidgetWidget"></div>
-          <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://github.com/kburk1997/FidgetWidget">FidgetWidget</a></h3><p>A hardware hack designed to show that stimming is a natural and relaxing experience for autistic and allistic individuals. Created at HackMIT 2016.
 
+  <div class="row">
+ <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10">
 
-</p></figcaption></div>
-    </li>  
-        <li class="orbit-slide">
-      <div class="image-wrapper"><img class="orbit-image" src="https://startupcompete.co/business/logo-image/businessid/42859/filename/logo-bgxrkgjpnjxk.png" alt="CrowdCop"></div>
-          <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="http://www.crowdcop.io">CrowdCop</a></h3><p>A new spin on the way tips can be farmed for crime prevention and solving that uses crowd funding to make information more valuable for issues and crimes the public feels strongly about. On indefinite hiatus.
-</p></figcaption></div>
-    </li>
+  <div class="project">
     
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="https://avatars0.githubusercontent.com/u/17954096?v=3&s=200">
+        <div class="caption">
+          <h3>YACS Admin</h3>
+          <p><b>Platform:</b> Web</p>
+          <p><b>Languages:</b> Ruby, Rails, HTML, CSS, Javascript</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An admin panel for the YACS app that allows course instructors and system administrators to create, update, and delete course catalog entries.</p>
+          <a href="https://github.com/YACS-RCOS/yacs-admin">Source</a>
+          <a href="/blog/tag/#yacs">Blog Posts</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10">
 
-    <li class="orbit-slide">
-      <div class="image-wrapper"><img class="orbit-image" src="https://github.com/bocaaust/SoundView/blob/master/SoundView/Images.xcassets/AppIcon.appiconset/AppIcon60x60@3x.png?raw=true" alt="Space"></div>
-      <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://github.com/bocaaust/SoundView">Synesthetics</a></h3><p>An iOS app that generates sound based on RGB values for images as well as maintains volume relative to the intensity of the color. Won Most Creative Hack at BCCHacks 2016.
-        </p></figcaption></div>
-    </li>
+  <div class="project">
     
-        <li class="orbit-slide">
-      <div class="image-wrapper"><img class="orbit-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Autism_spectrum_infinity_awareness_symbol.svg/2000px-Autism_spectrum_infinity_awareness_symbol.svg.png" alt="Space"></div>
-      <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://github.com/kburk1997/My-ASD-Journey">Sensory Overload Simulator</a></h3><p>A mobile mini simulation collection that tries to simulate some of the experiences of living with ASD. Won Most Innovative Hack and placed second overall at NYX 2016. Web port is currently in progress.
-        </p></figcaption></div>
-    </li>
-    
-    <li class="orbit-slide">
-      <div class="image-wrapper"><img class="orbit-image" src="http://kburk.me/assets/rotae-42b833d314cf8740f97bfec226f9014d.png" alt="Space"></div>
-      <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://itunes.apple.com/us/app/rotae/id1090704774?mt=8">Rotae</a></h3><p>An open-source, non-linear task organizer for iOS. Web version under construction.
-        </p></figcaption></div>
-    </li>
-    
-        <li class="orbit-slide">
-      <div class="image-wrapper"><img class="orbit-image" src="http://kburk.me/assets/trustnews-a2f7833d19f8e47867722645afc2cc7d.png" alt="Space"></div>
-      <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://chrome.google.com/webstore/detail/trustnews/idpllpndgppbccmacnhfbefikkoijbej">TrustNews</a></h3><p>An open-source Chrome extension that determines if a major news source is trustworthy.
-        </p></figcaption></div>
-    </li>
-    
-        <li class="orbit-slide">
-      <div class="image-wrapper"><img class="orbit-image" src="http://kburk.me/assets/stemfest-b5c78aa4cc46a3b612d7b19f0b61a5ab.jpg" alt="Space"></div>
-      <div class="caption-wrapper"><figcaption class="orbit-caption"><h3><a href="https://github.com/kburk1997/STEMFest-App">Stamford STEMFest</a></h3><p>A mobile web app for visitors of Stamford STEMFest 2015. Included information on over 90 activities, directions, parking, registration, and a form for song requests.
-        </p></figcaption></div>
-    </li>
-    {% for project in site.projects %}
-      <li>
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/499/528/datas/gallery.jpg">
+        <div class="caption">
+          <h3>Cantern</h3>
+          <p><b>Platform:</b> Hardware</p>
+          <p><b>Languages:</b> C</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An interactive lantern created with an Arduino, electronic components, and a can of Monster Energy. Created at Bitcamp 2017.</p>
+          <a href="https://github.com/kburk1997/Cantern">Source</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
 
-        <h2>
-          {{ project.title | escape }}
-        </h2>
-      </li>
-    {% endfor %}
-    </ul>
+  <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10">
 
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="https://github.com/kburk1997/AlarmAll/blob/master/pictures/pspice/schematic-photos/experimental_schematic.PNG?raw=true">
+        <div class="caption">
+          <h3>AlarmAll</h3>
+          <p><b>Platform:</b> Hardware</p>
+          <p><b>Languages:</b> None</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An alternate alarm system for people with hearing loss that integrates with existing alarms. Created at McHacks 2017.</p>
+          <a href="https://github.com/kburk1997/AlarmAll">Source</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 hidden-md hidden-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="http://i.imgur.com/DvTsJGM.png">
+        <div class="caption">
+          <h3>RedFlag</h3>
+          <p><b>Platform:</b> Chrome</p>
+          <p><b>Languages:</b> JavaScript, HTML, CSS</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An open-source Chrome extension that either hides or highlights possibly harassing tweets and gives users information about reporting harassment. Won MLH and HackHarassment's Best Anti-Harassment Hack at HackRPI 2016.</p>
+          <a href="https://github.com/kburk1997/RedFlag">Source Code</a>
+          <a href="https://chrome.google.com/webstore/detail/redflag/icfcofbhpapplokfmbgllcfehkbaadap">Download</a>
+
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+</div>
+<div class="row">
+
+    <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 visible-md visible-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="http://i.imgur.com/DvTsJGM.png">
+        <div class="caption">
+          <h3>RedFlag</h3>
+          <p><b>Platform:</b> Chrome</p>
+          <p><b>Languages:</b> JavaScript, HTML, CSS</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An open-source Chrome extension that either hides or highlights possibly harassing tweets and gives users information about reporting harassment. Won MLH and HackHarassment's Best Anti-Harassment Hack at HackRPI 2016.</p>
+          <a href="https://github.com/kburk1997/RedFlag">Source Code</a>
+          <a href="https://chrome.google.com/webstore/detail/redflag/icfcofbhpapplokfmbgllcfehkbaadap">Download</a>
+
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="https://github.com/kburk1997/RoadJams/blob/master/public/images/compact%20logo.png?raw=true">
+        <div class="caption">
+          <h3>RoadJams</h3>
+          <p><b>Platform:</b> Web</p>
+          <p><b>Languages:</b> JavaScript, HTML, CSS, Node.js</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An open-source Node.js app that takes users' Spotify data and uses the Spotify API to create a playlist matching the length of a road trip based on the group's preferences. Created at HackMarist 2016.</p>
+          <a href="https://github.com/kburk1997/RoadJams">Source Code</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="https://rcos.io/uploads/kburk1997/betterebinder/bi9mDY7Jsg1qW5K106FqpbII.png">
+        <div class="caption">
+          <h3>Better eBinder</h3>
+          <p><b>Platform:</b> Web</p>
+          <p><b>Languages:</b> JavaScript, HTML, CSS, Ruby, Rails</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>A Rails application that organizes Google documents in a customizable "binder". Originally created for Stamford Public Schools to organize preschool documents.</p>
+          <a href="https://github.com/kburk1997/BettereBinder">Source Code</a>
+          <a href="http://bit.ly/apples-stamford">Sample Binder</a>
+          <a href="/blog/tag/#better-ebinder">Blog Posts</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 hidden-md hidden-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="http://i.imgur.com/Vwe5kiT.png">
+        <div class="caption">
+          <h3>FidgetWidget</h3>
+          <p><b>Platform:</b> Hardware</p>
+          <p><b>Languages:</b> Python</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>A hardware hack designed to show that stimming is a natural and relaxing experience for autistic and allistic individuals. Created at HackMIT 2016.</p>
+          <a href="https://github.com/kburk1997/FidgetWidget">Source Code</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 hidden-md hidden-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="https://startupcompete.co/business/logo-image/businessid/42859/filename/logo-bgxrkgjpnjxk.png">
+        <div class="caption">
+          <h3>CrowdCop</h3>
+          <p><b>Platform:</b> Web</p>
+          <p><b>Languages:</b> HTML, CSS, Javascript, Python, Django</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>A new spin on the way tips can be farmed for crime prevention and solving that uses crowd funding to make information more valuable for issues and crimes the public feels strongly about.</p>
+          <a href="https://github.com/bocaaust/CrowdCop">Source Code</a>
+          <a href="/blog/tag/#crowdcop">Blog Posts</a>          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 visible-md visible-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="http://i.imgur.com/Vwe5kiT.png">
+        <div class="caption">
+          <h3>FidgetWidget</h3>
+          <p><b>Platform:</b> Hardware</p>
+          <p><b>Languages:</b> Python</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>A hardware hack designed to show that stimming is a natural and relaxing experience for autistic and allistic individuals. Created at HackMIT 2016.</p>
+          <a href="https://github.com/kburk1997/FidgetWidget">Source Code</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 visible-md visible-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="https://startupcompete.co/business/logo-image/businessid/42859/filename/logo-bgxrkgjpnjxk.png">
+        <div class="caption">
+          <h3>CrowdCop</h3>
+          <p><b>Platform:</b> Web</p>
+          <p><b>Languages:</b> HTML, CSS, Javascript, Python, Django</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>A new spin on the way tips can be farmed for crime prevention and solving that uses crowd funding to make information more valuable for issues and crimes the public feels strongly about.</p>
+          <a href="https://github.com/bocaaust/CrowdCop">Source Code</a>
+          <a href="/blog/tag/#crowdcop">Blog Posts</a>          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 ">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="https://github.com/bocaaust/SoundView/blob/master/SoundView/Images.xcassets/AppIcon.appiconset/AppIcon60x60@3x.png?raw=true">
+        <div class="caption">
+          <h3>Synesthetics</h3>
+          <p><b>Platform:</b> iOS</p>
+          <p><b>Languages:</b> Lua</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An iOS app that generates sound based on RGB values for images as well as maintains volume relative to the intensity of the color. Won Most Creative Hack at BCCHacks 2016.</p>
+          <a href="https://github.com/bocaaust/SoundView">Source Code</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+      <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 hidden-md hidden-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Autism_spectrum_infinity_awareness_symbol.svg/2000px-Autism_spectrum_infinity_awareness_symbol.svg.png">
+        <div class="caption">
+          <h3>Sensory Overload Simulator</h3>
+          <p><b>Platform:</b> iOS/Web</p>
+          <p><b>Languages:</b> iOS: Lua</p><p>Web: HTML, CSS, Javascript, Ruby, Rails</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>A mobile mini simulation collection that tries to simulate some of the experiences of autistic people. Won Most Innovative Hack and placed second overall at NYX 2016. Web port is available on GitHub.</p>
+          <a href="https://github.com/kburk1997/My-ASD-Journey">Source Code</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+      <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 hidden-md hidden-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="http://kburk.me/assets/rotae-42b833d314cf8740f97bfec226f9014d.png">
+        <div class="caption">
+          <h3>Rotae</h3>
+          <p><b>Platform:</b> iOS</p>
+          <p><b>Languages:</b> Lua</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An open-source, non-linear task organizer for iOS. Created at BrickHack 2016.</p>
+          <a href="https://github.com/bocaaust/Rotae">Source Code</a> <a href="https://itunes.apple.com/us/app/rotae/id1090704774?mt=8">Download</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+<div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 hidden-md hidden-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="http://kburk.me/assets/trustnews-a2f7833d19f8e47867722645afc2cc7d.png">
+        <div class="caption">
+          <h3>TrustNews</h3>
+          <p><b>Platform:</b> Chrome</p>
+          <p><b>Languages:</b> HTML, CSS, Javascript</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An open-source Chrome extension that determines if a major news source is trustworthy. Created at HackRPI 2015.</p>
+          <a href="https://github.com/kburk1997/TrustNews">Source Code</a> <a href="https://chrome.google.com/webstore/detail/trustnews/idpllpndgppbccmacnhfbefikkoijbej">Download</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row visible-md visible-lg">
+      <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 visible-md visible-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Autism_spectrum_infinity_awareness_symbol.svg/2000px-Autism_spectrum_infinity_awareness_symbol.svg.png">
+        <div class="caption">
+          <h3>Sensory Overload Simulator</h3>
+          <p><b>Platform:</b> iOS/Web</p>
+          <p><b>Languages:</b> iOS: Lua</p><p>Web: HTML, CSS, Javascript, Ruby, Rails</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>A mobile mini simulation collection that tries to simulate some of the experiences of autistic people. Won Most Innovative Hack and placed second overall at NYX 2016. Web port is available on GitHub.</p>
+          <a href="https://github.com/kburk1997/My-ASD-Journey">Source Code</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+      <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 visible-md visible-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="http://kburk.me/assets/rotae-42b833d314cf8740f97bfec226f9014d.png">
+        <div class="caption">
+          <h3>Rotae</h3>
+          <p><b>Platform:</b> iOS</p>
+          <p><b>Languages:</b> Lua</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An open-source, non-linear task organizer for iOS. Created at BrickHack 2016.</p>
+          <a href="https://github.com/bocaaust/Rotae">Source Code</a> <a href="https://itunes.apple.com/us/app/rotae/id1090704774?mt=8">Download</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+<div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10 visible-md visible-lg">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="http://kburk.me/assets/trustnews-a2f7833d19f8e47867722645afc2cc7d.png">
+        <div class="caption">
+          <h3>TrustNews</h3>
+          <p><b>Platform:</b> Chrome</p>
+          <p><b>Languages:</b> HTML, CSS, Javascript</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>An open-source Chrome extension that determines if a major news source is trustworthy. Created at HackRPI 2015.</p>
+          <a href="https://github.com/kburk1997/TrustNews">Source Code</a> <a href="https://chrome.google.com/webstore/detail/trustnews/idpllpndgppbccmacnhfbefikkoijbej">Download</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+<div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="http://kburk.me/assets/stemfest-b5c78aa4cc46a3b612d7b19f0b61a5ab.jpg">
+        <div class="caption">
+          <h3>Stamford STEMFest</h3>
+          <p><b>Platform:</b> Mobile Web</p>
+          <p><b>Languages:</b> HTML, CSS, Javascript</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p>A mobile web app for visitors of Stamford STEMFest 2015. Included information on over 90 activities, directions, parking, registration, and a form for song requests.</p>
+          <a href="https://github.com/kburk1997/STEMFest-App">Source Code</a> <a href="https://chrome.google.com/webstore/detail/trustnews/idpllpndgppbccmacnhfbefikkoijbej">Download</a>
+          
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
   
 </div>
   </div>
+</div>

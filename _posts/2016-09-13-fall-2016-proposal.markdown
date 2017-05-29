@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Better eBinder - Fall 2016 Proposal"
+date:   2016-09-13 16:17:03 -0400
+tags: [better ebinder, rcos, ruby, proposal, fullstack, rails]
+---
+Adapted from: [https://rcos.io/projects/kburk1997/betterebinder/blog](https://rcos.io/projects/kburk1997/betterebinder/blog)
+
+[https://docs.google.com/document/d/1VXOTAQHIHcEGsHaTKaj1pNZR-J-mQJq5S-7bhrZjdNA/edit?usp=sharing](https://docs.google.com/document/d/1VXOTAQHIHcEGsHaTKaj1pNZR-J-mQJq5S-7bhrZjdNA/edit?usp=sharing)
+
