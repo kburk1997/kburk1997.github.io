@@ -3,6 +3,7 @@ layout: post
 title:  "CrowdCop - Semester in Review"
 date:   2015-12-04 21:30:29 -0400
 tags: [crowdcop, rcos, frontend]
+comments: true
 ---
 Adapted from: [https://rcos.io/projects/bocaaust/CrowdCop/blog](https://rcos.io/projects/bocaaust/CrowdCop/blog)
 

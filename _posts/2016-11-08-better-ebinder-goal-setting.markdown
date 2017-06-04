@@ -3,6 +3,8 @@ layout: post
 title:  "Better eBinder - Goal Setting/Time Management"
 date:   2016-11-08 16:17:16 -0400
 tags: [better ebinder, rcos, ruby, update, fullstack, rails, personal, procrastination, time management, goal setting]
+comments: true
+
 ---
 Adapted from: [https://rcos.io/projects/kburk1997/betterebinder/blog](https://rcos.io/projects/kburk1997/betterebinder/blog)
 

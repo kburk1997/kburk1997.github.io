@@ -3,6 +3,8 @@ layout: post
 title:  "CrowdCop - Presentation Complete!"
 date:   2016-03-28 15:33:19 -0400
 tags: [crowdcop, rcos, django, update, fullstack, python]
+comments: true
+
 ---
 Adapted from: [https://rcos.io/projects/bocaaust/CrowdCop/blog](https://rcos.io/projects/bocaaust/CrowdCop/blog)
 

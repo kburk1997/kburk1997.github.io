@@ -3,6 +3,8 @@ layout: post
 title:  "Better eBinder - Post-Presentation"
 date:   2016-10-18 16:25:01 -0400
 tags: [better ebinder, rcos, ruby, update, fullstack, rails]
+comments: true
+
 ---
 Adapted from: [https://rcos.io/projects/kburk1997/betterebinder/blog](https://rcos.io/projects/kburk1997/betterebinder/blog)
 

@@ -3,6 +3,8 @@ layout: post
 title:  "YACS - Admin Panel Progress 2"
 date:   2017-03-22 00:35:33 -0400
 tags: [yacs, rcos, rails, fullstack, ruby, update, api, activeresource, stubbing, testing, test-driven development, cucumber]
+comments: true
+
 ---
 Adapted from: [https://yacs-rcos.github.io/](https://yacs-rcos.github.io/)
 

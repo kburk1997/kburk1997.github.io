@@ -7,7 +7,7 @@ permalink: /blog/tag/
 <div class="tags-expo">
   <div class="tags-expo-list">
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] | slugify }}" class="tag btn btn-default btn-xs btn-tag "><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> {{ tag[0] }}</a>
     {% endfor %}
   </div>
   <hr/>
@@ -30,6 +30,7 @@ permalink: /blog/tag/
       </li>
     {% endfor %}
   </ul>
+  <a href="#"><span class="glyphicon glyphicon-menu-up" aria-hidden="true"></span> Back to Top</a>
     </ul>
     {% endfor %}
   </div>

@@ -3,6 +3,8 @@ layout: post
 title:  "YACS - Rocky Road"
 date:   2017-02-28 23:08:53 -0400
 tags: [yacs, rcos, rails, fullstack, ruby, ubuntu, linux, docker, mint, dual booting]
+comments: true
+
 ---
 Adapted from: [https://yacs-rcos.github.io/](https://yacs-rcos.github.io/)
 

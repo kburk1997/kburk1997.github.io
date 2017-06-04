@@ -3,6 +3,8 @@ layout: post
 title:  "YACS - Admin Panel Progress"
 date:   2017-03-09 20:55:46 -0400
 tags: [yacs, rcos, rails, fullstack, ruby, update, api, activeresource]
+comments: true
+
 ---
 Adapted from: [https://yacs-rcos.github.io/](https://yacs-rcos.github.io/)
 

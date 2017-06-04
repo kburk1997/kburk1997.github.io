@@ -3,6 +3,8 @@ layout: post
 title:  "CrowdCop - Upcoming Meeting with Public Safety and UGRS"
 date:   2016-04-26 16:26:12 -0400
 tags: [crowdcop, rcos, django, update, fullstack, python, ugrs]
+comments: true
+
 ---
 Adapted from: [https://rcos.io/projects/bocaaust/CrowdCop/blog](https://rcos.io/projects/bocaaust/CrowdCop/blog)
 

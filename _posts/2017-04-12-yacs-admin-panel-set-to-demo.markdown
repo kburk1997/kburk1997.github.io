@@ -3,6 +3,8 @@ layout: post
 title:  "YACS - Admin Panel Set to Demo Next Week!"
 date:   2017-04-12 15:29:15 -0400
 tags: [yacs, rcos, rails, fullstack, ruby, update, api, activeresource, testing, test-driven development, cucumber, bitcamp, hackathons]
+comments: true
+
 ---
 Adapted from: [https://yacs-rcos.github.io/](https://yacs-rcos.github.io/)
 

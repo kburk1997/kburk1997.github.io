@@ -3,6 +3,7 @@ layout: post
 title:  "CrowdCop - Django Progress"
 date:   2016-03-08 16:38:13 -0400
 tags: [crowdcop, rcos, django, update, fullstack, python]
+comments: true
 ---
 Adapted from: [https://rcos.io/projects/bocaaust/CrowdCop/blog](https://rcos.io/projects/bocaaust/CrowdCop/blog)
 

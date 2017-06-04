@@ -3,6 +3,8 @@ layout: post
 title:  "YACS - Semester in Review"
 date:   2017-04-29 15:46:20 -0400
 tags: [yacs, rcos, rails, fullstack, ruby, update, api, activeresource, testing, test-driven development, cucumber, future, plans]
+comments: true
+
 ---
 Adapted from: [https://yacs-rcos.github.io/](https://yacs-rcos.github.io/)
 
