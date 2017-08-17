@@ -27,6 +27,38 @@ $(document).ready(main);
   <br>
 
   <div class="row">
+    
+    {%for project in site.projects%}
+    
+    
+ <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10">
+
+  <div class="project">
+    
+    <div class="front">
+      <div class="thumbnail">
+        <img class="project-icon" src="{{project.image}}">
+        <div class="caption">
+          <h3>{{project.title}}</h3>
+          <p><b>Platform:</b> {{project.platform}}</p>
+          <p><b>Languages:</b> {%for tech in project.technologies%}{{tech}}{%endfor%}</p>
+          <!--<p><b>Description:</b> <%=p.description%></p>-->
+        </div>
+        </div>
+      </div>
+      <div class="back">
+        <div class="thumbnail">
+          <div class="caption">
+          <p></p>
+          <a href="{{project.project-url}}">Source</a>
+          <a href="/blog/tag/#{{project.blog-tag}}">Blog Posts</a>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    
+    {%endfor%}
  <div class=" col-lg-4 col-md-4 col-sm-6 col-xs-10">
 
   <div class="project">
