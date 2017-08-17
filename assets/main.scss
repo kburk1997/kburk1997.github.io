@@ -124,9 +124,9 @@ body {
   height: 100%;
   margin:auto;
 }
-@media screen and (max-width: 640px){
+@media screen and (max-width: 767px){
 .image-wrapper{
-  width: 100%;
+  width: 100% !important;
   display: inline-block;
   height:128px;
 }
@@ -138,7 +138,7 @@ body {
   vertical-align:middle;
 }
 .caption-wrapper {
-  width:100%;
+  width:100% !important;
   display:inline-block;
   margin:auto;
 }
