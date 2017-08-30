@@ -11,20 +11,24 @@ I always told myself I hated reading; I could never focus long enough to be abso
 
 And I did. Soon, the three books weren't enough to satisfy my desires to read. I had found the right genre, and in order to satisfy my desires to read more, I headed to the Boston Public Library, which quickly became my favorite place in the city.
 
-| ![bpl](https://i.imgur.com/OjG9tf3.jpg)|
+| ![bpl](https://i.imgur.com/OjG9tf3.jpg){:width="400px"}|
 | :--: |
 | *View of the fountain outside the Boston Public Library. Great for escaping the hustle and bustle of the city, and it was only a short T ride from my apartment!* |
 
+&nbsp;
+
 Without further adieu, here was my reading list this summer:
 
-| ![ten-types](https://www.doblin.com/dist/images/uploads/doblin-design-ten-types-book.jpg) | *Ten Types of Innovation: The Discipline of Building Breakthroughs* by Larry Keeley |
-| ![gtd] (https://images-na.ssl-images-amazon.com/images/I/51TLWMEVT0L.jpg) | *Getting Things Done* by David Allen | 
-| ![sprint](https://static1.squarespace.com/static/56778f460ab377c981686546/t/56dde2af7da24fbd436f90da/1457382076032/?format=300w) | *Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days* by Jake Knapp |
-| ![tbti] (https://images-na.ssl-images-amazon.com/images/I/510nu6g3VBL._SX331_BO1,204,203,200_.jpg) | *Too Big to Ignore: The Business Case for Big Data* by Phil Simon |
-| ![gadgets](https://cdn.theatlantic.com/static/mt/assets/science/Vamosi-When%20Gadgets.jpg) | *When Gadgets Betray Us: The Dark Side of Our Infatuation With New Technologies* by Robert Vamosi |
-| ![unnatural](https://images-na.ssl-images-amazon.com/images/I/51HE8hgaSzL._SY344_BO1,204,203,200_.jpg)| *Unnatural Selection: Why the Geeks Will Inherit the Earth* by Mark Roeder |
-| ![chokepoints](https://images-na.ssl-images-amazon.com/images/I/51sJ721l4YL._SY344_BO1,204,203,200_.jpg) | *Chokepoints: Global Private Regulation on the Internet* by Natasha Tusikov |
-| ![circle](https://images-na.ssl-images-amazon.com/images/I/51sJ721l4YL._SY344_BO1,204,203,200_.jpg) |*The Circle* by Dave Eggers |
+| ![ten-types](https://www.doblin.com/dist/images/uploads/doblin-design-ten-types-book.jpg){:width="200px"} | *Ten Types of Innovation: The Discipline of Building Breakthroughs* by Larry Keeley |
+| ![gtd](https://images-na.ssl-images-amazon.com/images/I/51TLWMEVT0L.jpg){:width="200px"} | *Getting Things Done* by David Allen | 
+| ![sprint](https://static1.squarespace.com/static/56778f460ab377c981686546/t/56dde2af7da24fbd436f90da/1457382076032/?format=300w){:width="200px"}| *Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days* by Jake Knapp |
+| ![tbti](https://images-na.ssl-images-amazon.com/images/I/510nu6g3VBL._SX331_BO1,204,203,200_.jpg){:width="200px"}| *Too Big to Ignore: The Business Case for Big Data* by Phil Simon |
+| ![gadgets](https://cdn.theatlantic.com/static/mt/assets/science/Vamosi-When%20Gadgets.jpg){:width="200px"}| *When Gadgets Betray Us: The Dark Side of Our Infatuation With New Technologies* by Robert Vamosi |
+| ![unnatural](https://images-na.ssl-images-amazon.com/images/I/51HE8hgaSzL._SY344_BO1,204,203,200_.jpg){:width="200px"}| *Unnatural Selection: Why the Geeks Will Inherit the Earth* by Mark Roeder |
+| ![chokepoints](https://images-na.ssl-images-amazon.com/images/I/51sJ721l4YL._SY344_BO1,204,203,200_.jpg){:width="200px"}| *Chokepoints: Global Private Regulation on the Internet* by Natasha Tusikov |
+| ![circle](https://upload.wikimedia.org/wikipedia/en/2/28/The_Circle_%28Dave_Eggers_novel_-_cover_art%29.jpg ){:width="200px"}|*The Circle* by Dave Eggers |
+
+&nbsp;
 
 Out of all the books on this list, the most practical book by far had to be *Getting Things Done*. I'm not a big fan of self-help books, but David Allen's method of breaking projects into tasks with meaningful actions really resonated with me. Even though the book was geared towards adults in their professional career, I definitely planning on using the GTD methodology during my next semester at RPI and beyond. Besides, I'm only a year and a half away from kickstarting my venture into the real world.
 
