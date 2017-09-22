@@ -16,7 +16,7 @@
 title: Kathleen Burkhardt
 email: burkhk@rpi.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Rising junior studying Computer and Systems Engineering at RPI. Avid hackathon traveler and open-source developer.
+  Junior studying Computer and Systems Engineering at RPI. Avid hackathon traveler and open-source developer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  kburk1997
