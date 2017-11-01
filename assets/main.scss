@@ -172,7 +172,9 @@ body{
   width:50%;
 }
 
-
+.footer-col-2{
+    width: calc(25% - (30px / 2)) !important;
+}
 
 
 .project .thumbnail{
