@@ -84,6 +84,7 @@ body {
   width:66%;
   display: inline-block;
   padding: 5px 10px;
+  font-size: 18px;
 }
 
 
@@ -102,7 +103,7 @@ body {
   box-shadow: 5px 2px #efefef;
       vertical-align: middle;
   display: inline-block;
-  margin-bottom: 33%;
+  margin-bottom: 50%;
 }
 
 .image-wrapper{
@@ -172,7 +173,9 @@ body{
   width:50%;
 }
 
-
+.footer-col-2{
+    width: calc(25% - (30px / 2)) !important;
+}
 
 
 .project .thumbnail{
